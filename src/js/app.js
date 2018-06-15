@@ -6,49 +6,49 @@ app.controller('myCtrl', function($scope){
 			img: "src/img/1.jpg",
 			company: "Nike",
 			type: "Men Runner Shoes",
-			price: "$32"
+			price: "$30"
 		},
 		{
-			img: "src/img/1.jpg",
+			img: "src/img/2.jpg",
 			company: "Nike",
 			type: "Men Runner Shoes",
-			price: "$32"
+			price: "$45"
 		},
 		{
-			img: "src/img/1.jpg",
+			img: "src/img/3.jpg",
 			company: "Nike",
 			type: "Men Runner Shoes",
-			price: "$32"
+			price: "$60"
 		},
 		{
-			img: "src/img/1.jpg",
+			img: "src/img/4.jpg",
 			company: "Nike",
 			type: "Men Runner Shoes",
-			price: "$32"
+			price: "$85"
 		},
 		{
-			img: "src/img/1.jpg",
+			img: "src/img/5.jpg",
 			company: "Nike",
 			type: "Men Runner Shoes",
-			price: "$32"
+			price: "$25"
 		},
 		{
-			img: "src/img/1.jpg",
+			img: "src/img/6.jpg",
 			company: "Nike",
 			type: "Men Runner Shoes",
-			price: "$32"
+			price: "$40"
 		},
 		{
-			img: "src/img/1.jpg",
+			img: "src/img/7.jpg",
 			company: "Nike",
 			type: "Men Runner Shoes",
-			price: "$32"
+			price: "$55"
 		},
 		{
-			img: "src/img/1.jpg",
+			img: "src/img/8.jpg",
 			company: "Nike",
 			type: "Men Runner Shoes",
-			price: "$32"
+			price: "$123"
 		}
 	];
 
