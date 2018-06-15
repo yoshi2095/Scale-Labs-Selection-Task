@@ -1,0 +1,203 @@
+@font-face{
+    font-family: 'MarkOffcPro-Medium';
+    src: url(src/css/MarkPro-TestFont.otf) format('otf');
+}
+
+.bg-white {
+    color: #58666e;
+    background-color: #fff;
+}
+
+.bg-light {
+    color: #58666e;
+    background-color: #edf1f2; 
+}
+
+.app-header {
+    position: fixed;
+}
+
+.navbar {
+    margin:0;
+    border-width: 0;
+    border-radius:0;
+    padding: 0;
+    font-family: MarkOffcPro-Medium,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.nav-link{
+    padding-left: 25px!important;
+    padding-right: 25px!important;
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+    font-size: 14px!important;
+    /*font-weight: bold;*/
+}
+
+::-webkit-input-placeholder {
+     font-size: 14px!important;
+     color: lightgrey;
+     padding-left: 20px; 
+     
+}
+
+.nav-link:hover{
+    background-color: #eee;
+    color: black;
+}
+
+
+.box-shadow {
+    box-shadow: 0 2px 2px rgba(0,0,0,.05),0 1px 0 rgba(0,0,0,.05);
+}
+
+.bg-white .lt, .bg-white .lter, .bg-white .dk, .bg-white .dker {
+    background-color: #fff;
+}
+
+.bg-light.dk, .bg-light .dk {
+    background-color: #e4eaec;
+}
+
+.navbar-brand {
+    display: inline-block;
+    float: none;
+    height: auto;
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 0!important;
+    height: 50px;
+}
+
+a {
+    color: #363f44;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pos-rlt {
+    position: relative;
+}
+
+.card-title{
+    margin-bottom: 10px!important;
+}
+
+.inline {
+    display: inline-block!important;
+}
+
+h6{
+    font-size: 14px!important;
+    color: #3e83ff;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 18px!important;
+}
+
+.form-control-sm {
+    border-color: #cfdadd!important;
+    border-radius: 2px!important;
+    padding:0!important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+p{
+    font-size: 18px!important;
+}
+
+.btn {
+    font-weight: bold;
+    border-radius: 0px;
+    outline: 0!important;
+    margin-right: 30px;
+    padding-top: 0.25rem!important;
+    padding-bottom: 0.25rem!important;
+    padding-left: 0.75rem!important;
+    padding-right: 0.75rem!important; 
+    color: #fff!important;
+    background-color: #3e83ff;
+    border-color: #3e83ff;
+    font-size: 14px!important;
+}
+
+.btn:hover{
+    background-color: #3775e5;
+    border-color: #3775e5;
+}
+
+.mark-bold {
+    font-family: MarkOffcPro-Bold,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.shadow {
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.28);
+    -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,.28);
+}
+
+.text-blue {
+    color: #3e83ff!important;
+}
+
+.text-violet {
+    color: #210e4a!important;
+}
+
+
+.clickable {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.text-red {
+    color: #fe5151!important;
+}
+
+.card-hover:hover {
+    top:-8px;
+}
+
+.btn-hover {
+    width: 150px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 50px;
+    border-color: #dee5e7;
+    border-bottom-color:#d8e1e3;
+    box-shadow: 0 1px 1px rgba(90,90,90,.1);
+    background-color: #fff;
+    font-weight: normal;
+}
+
+.btn-hover:hover{
+    box-shadow: 0 10px 40px 0 rgba(62,57,107,.15),0 2px 9px 0 rgba(62,57,107,.15);
+    transform: translateY(-5px);
+    transition: transform .2s ease,box-shadow .2s ease;
+    will-change: transform,box-shadow;
+    color: #58666e!important;
+    background-color: #edf1f2;
+    border-color: #c7d3d6;
+}
+
+.footer-cards {
+    border: 0!important;
+    list-style: none;
+    font-size: 14px!important;
+    text-align: left;
+}
+
+.footer-jumbotron {
+    padding:0!important;
+}
