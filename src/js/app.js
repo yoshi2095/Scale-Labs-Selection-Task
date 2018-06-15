@@ -48,7 +48,7 @@ app.controller('myCtrl', function($scope){
 			img: "src/img/8.jpg",
 			company: "Nike",
 			type: "Men Runner Shoes",
-			price: "$123"
+			price: "$23"
 		}
 	];
 
